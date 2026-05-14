@@ -92,8 +92,15 @@ export default function RAMpeptides() {
               </button>
             </div>
 
-            <div className="mt-4 text-[10px] text-zinc-400">
-              For research use only. Not for human consumption.
+            <div className="mt-4 flex items-center justify-between text-[10px]">
+              <div className="text-zinc-400">For research use only. Not for human consumption.</div>
+              <a 
+                href="https://verify.janoshik.com/HTZ2XRW2GWUW" 
+                target="_blank" 
+                className="text-black hover:underline"
+              >
+                View COA
+              </a>
             </div>
           </div>
 
