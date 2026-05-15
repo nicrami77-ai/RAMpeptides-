@@ -95,7 +95,7 @@ export default function RAMpeptides() {
             <div className="mt-4 flex items-center justify-between text-[10px]">
               <div className="text-zinc-400">For research use only. Not for human consumption.</div>
               <a 
-                href="https://verify.janoshik.com/HTZ2XRW2GWUW" 
+                href="https://verify.janoshik.com/tests/133614-Tesamorelin_Transparent_Purple_or_PurpleBlue_HTZ2XRW2GWUW" 
                 target="_blank" 
                 className="text-black hover:underline"
               >
@@ -104,9 +104,36 @@ export default function RAMpeptides() {
             </div>
           </div>
 
-          {/* Placeholder for next product */}
-          <div className="border border-dashed border-zinc-200 rounded-2xl p-8 flex items-center justify-center text-zinc-400 text-sm">
-            More products coming soon
+          {/* Reconstitution Solution Card */}
+          <div className="group border border-zinc-200 rounded-2xl p-8 hover:border-black transition-all">
+            <div className="flex justify-between items-start mb-6">
+              <div>
+                <div className="font-semibold text-xl tracking-tight">Reconstitution Solution</div>
+                <div className="text-sm text-zinc-500">30 mL · 0.9% Benzyl Alcohol</div>
+              </div>
+              <div className="text-right">
+                <div className="text-xl font-semibold tabular-nums">$12</div>
+                <div className="text-[10px] text-zinc-500 tracking-widest">PER VIAL</div>
+              </div>
+            </div>
+
+            <div className="text-sm text-zinc-600 mb-8 leading-relaxed">
+              Deionized water with 0.9% benzyl alcohol in USP-grade borosilicate glass vials.
+            </div>
+
+            <div className="flex items-center justify-between text-sm">
+              <div className="flex items-center gap-2 text-emerald-600">
+                <div className="w-1.5 h-1.5 bg-emerald-600 rounded-full" />
+                In stock
+              </div>
+              <button className="px-6 py-2.5 bg-black text-white text-sm rounded-full hover:bg-zinc-900 transition-colors">
+                Add to cart
+              </button>
+            </div>
+
+            <div className="mt-4 text-[10px] text-zinc-400">
+              For research use only. Not for human consumption.
+            </div>
           </div>
         </div>
       </section>
